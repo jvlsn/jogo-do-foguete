@@ -64,15 +64,12 @@ img {
 */
 
 @media (max-width: 700px) {
-  #game-canvas {
-    width: 360px;
-    height: 520px;
-  }
   button {
     width: 63px;
     height: 63px;
   }
   #controls {
-    bottom: 255px;
+    bottom: 54px;
+    gap: 129px;
   }
 }
