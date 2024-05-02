@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  margin-top: -100px;
+}
+
+#controls {
+  position: absolute;
+  bottom: 67px;
+  display: flex;
+  gap: 170px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  border: 3px solid black;
+  font-size: 40px;
+  transition: 0.2s;
+}
+
+button:hover {
+  color: red;
+  border: 3px solid red;
+  /* background-color: red; */
+}
+
+/*
+#nuvem {
+  position: absolute;
+  width: 320px;
+  height: 480px;
+  border: 2px solid red;
+  overflow: hidden;
+
+}
+
+img {
+  position: relative;
+  top: 25px;
+  width: max-content;
+  animation: img 25s linear infinite;
+}
+
+@keyframes img {
+  0% {
+    right: -400px;
+  }
+  100% {
+    right: 100%;
+  }
+}
+*/
+
+@media (max-width: 700px) {
+  #game-canvas {
+    width: 360px;
+    height: 520px;
+  }
+  button {
+    width: 63px;
+    height: 63px;
+  }
+  #controls {
+    bottom: 255px;
+  }
+}
