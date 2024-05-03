@@ -67,9 +67,9 @@ img {
   button {
     width: 63px;
     height: 63px;
+    bottom: 54px;
   }
   #controls {
-    bottom: 54px;
     gap: 129px;
   }
 }
